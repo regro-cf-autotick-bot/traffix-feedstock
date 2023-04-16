@@ -1,5 +1,5 @@
 {% set name = "traffix" %}
-{% set version = "0.1.12" %}
+{% set version = "0.1.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/traffix-{{ version }}.tar.gz
-  sha256: 5901a9fa57ef1067d92ec3e6592f9cddc7195ea8314facba0f00d7dc53bb16ef
+  sha256: 5b17b005389931d5c5770122faa44ae1cd6064ebc14ab60227ff93afcd5bd323
 
 build:
   noarch: python
